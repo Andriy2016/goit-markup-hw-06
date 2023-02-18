@@ -359,7 +359,7 @@
     <div class="backdrop " data-modal>
         <div class="modal">
           <button class="modal_btn" type="button" data-modal-close>
-            <svg  width="8" height="8">
+            <svg class="modal_icon" width="8" height="8">
                 <use href="./images/icons.svg/symbol-defs.svg#close"></use>
             </svg>
           </button>
@@ -369,24 +369,24 @@
             <label class="modal_form_label" for="user-sign">Name</label>
             <div class="modal_form_group">
               <input class="modal_form_field" type="text" id="user-sign" />
-              <svg class="modal_form_icon" width="20" height="20">
-                <use href=""></use>
+              <svg class="modal_form_icon" width="18" height="18">
+                <use href="./images/icons.svg/symbol-defs.svg#icon-user"></use>
               </svg>
             </div>
             <!-- Phone field -->
             <label class="modal_form_label" for="user-telephone">Phone</label>
-            <div class="modal-form-group">
-              <input class="modal-form-field" type="tel" id="user-telephone" />
-              <svg class="modal_form_icon" width="20" height="20">
-                <use href=""></use>
+            <div class="modal_form_group">
+              <input class="modal_form_field" type="tel" id="user-telephone" />
+              <svg class="modal_form_icon" width="18" height="24">
+                <use href="./images/icons.svg/symbol-defs.svg#icon-phone"></use>
               </svg>
             </div>
             <!-- Email field -->
             <label class="modal_form_label" for="user-email">Email</label>
             <div class="modal_form_group">
               <input class="modal_form_field" type="text" id="user-email" />
-              <svg class="modal_form_icon" width="20" height="20">
-                <use href=""></use>
+              <svg class="modal_form_icon" width="18" height="24">
+                <use href="./images/icons.svg/symbol-defs.svg#icon-email"></use>
               </svg>
             </div>
             <!-- Comment field -->
@@ -400,16 +400,21 @@
             ></textarea>
             <!-- Agreement field -->
             <label class="modal_form_agreement" for="user-agreement">
-              <input
+            <div class="modal_form_agre_box">
+                <input
                 class="modal_form_checkbox"
                 type="checkbox"
                 name="user-agreement"
                 id="user-agreement"
-              />
-              <span class="modal_form_desc">
-                I accept the terms and conditions of the
-                <a class="modal_form_link" href="" target="_blank">Privacy Policy</a>
-              </span>
+                />
+                <svg class="modal_form_agr_icon" width="10" height="8">
+                    <use href="./images/icons.svg/symbol-defs.svg#check-mark"></use>
+                </svg>
+            </div>
+                <span class="modal_form_desc">
+                    I accept the terms and conditions of the
+                <a class="modal_form_link" href="#" target="_blank">Privacy Policy</a>
+                </span>
             </label>
   
             <button class="modal_form_btn" type="submit">Send</button>
