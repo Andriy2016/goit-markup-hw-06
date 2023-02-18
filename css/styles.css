@@ -640,3 +640,6 @@ margin-right: auto;
     padding: 0;
 }
 
+label {
+    display: block;
+  }
