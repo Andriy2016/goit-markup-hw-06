@@ -504,7 +504,7 @@ margin-right: auto;
     background-color: var(--primary-brand-cl);
     border-radius: 4px;
     color: var(--white-cl);
-    border: 0;
+    border: none;
 
     display: flex;
     justify-content: center;
