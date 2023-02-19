@@ -461,6 +461,7 @@ margin-right: auto;
 }
 
 .footer_label {
+    
     color: var(--white-cl);
     font-size: 16px;
     letter-spacing: 0.02em;
